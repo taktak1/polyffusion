@@ -176,7 +176,6 @@ def choose_song_from_val_dl():
     prmat2c_to_midi_file(prmat_np, "exp/origin.mid")
     return song_fn, prmat, prmat
 
-
 if __name__ == "__main__":
     parser = ArgumentParser(description='inference a Polyffusion model')
     parser.add_argument(
